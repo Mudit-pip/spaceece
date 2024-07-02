@@ -37,6 +37,7 @@ import com.spacECE.spaceceedu.Authentication.UserLocalStore;
 import com.spacECE.spaceceedu.Location.LocationService;
 import com.spacECE.spaceceedu.Utils.UsefulFunctions;
 import com.spacECE.spaceceedu.VideoLibrary.VideoLibrary_Activity;
+import com.spacECE.spaceceedu.growth_tracker.track_food_fitness_vaccination;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 import org.json.JSONArray;
@@ -158,6 +159,7 @@ public class MainActivity extends AppCompatActivity {
         drawer = findViewById(R.id.Main_NavView_drawer);
         navigationView = (NavigationView) findViewById(R.id.Main_navView_drawer);
 
+        startActivity(new Intent(MainActivity.this, track_food_fitness_vaccination.class));
         try {
             navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
                 @Override

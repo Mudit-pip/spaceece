@@ -8,7 +8,7 @@
         android:name="android.hardware.camera"
         android:required="false" />
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -34,6 +34,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SpacECEedu"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".growth_tracker.track_food_fitness_vaccination"
+            android:exported="false" />
         <activity
             android:name=".space_active.second_page_for_space_active_with_video"
             android:exported="false" />
@@ -154,4 +157,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
