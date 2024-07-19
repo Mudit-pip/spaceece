@@ -61,6 +61,7 @@
                         app:cardCornerRadius="6dp"></androidx.cardview.widget.CardView>
 
                     <TextView
+                        android:id="@+id/track_food_water_lbl"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
@@ -83,6 +84,7 @@
                         app:cardCornerRadius="6dp"></androidx.cardview.widget.CardView>
 
                     <TextView
+                        android:id="@+id/track_food_fruits_lbl"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
@@ -105,10 +107,11 @@
                         app:cardCornerRadius="6dp"></androidx.cardview.widget.CardView>
 
                     <TextView
+                        android:id="@+id/track_food_vegetables_lbl"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
-                        android:text="Vegitables"
+                        android:text="Vegetables"
                         android:textColor="@color/black"
                         android:textSize="13dp"></TextView>
                 </LinearLayout>
@@ -168,10 +171,11 @@
                         app:cardCornerRadius="6dp"></androidx.cardview.widget.CardView>
 
                     <TextView
+                        android:id="@+id/track_vacci_total_lbl"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
-                        android:text="Upcoming Vaccinated"
+                        android:text="Total Vaccines"
                         android:textColor="@color/black"
                         android:textSize="13dp"></TextView>
                 </LinearLayout>
@@ -190,10 +194,11 @@
                         app:cardCornerRadius="6dp"></androidx.cardview.widget.CardView>
 
                     <TextView
+                        android:id="@+id/track_vacci_vaccinated_lbl"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
-                        android:text="Not Vaccinated"
+                        android:text="Vaccinated"
                         android:textColor="@color/black"
                         android:textSize="13dp"></TextView>
                 </LinearLayout>
@@ -212,10 +217,11 @@
                         app:cardCornerRadius="6dp"></androidx.cardview.widget.CardView>
 
                     <TextView
+                        android:id="@+id/track_vacci_notvaccinated_lbl"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
-                        android:text="Vaccinated"
+                        android:text="Not Vaccinated"
                         android:textColor="@color/black"
                         android:textSize="13dp"></TextView>
                 </LinearLayout>
@@ -292,6 +298,7 @@
                         app:cardCornerRadius="6dp"></androidx.cardview.widget.CardView>
 
                     <TextView
+                        android:id="@+id/track_fitness_play_lbl"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
@@ -314,6 +321,7 @@
                         app:cardCornerRadius="6dp"></androidx.cardview.widget.CardView>
 
                     <TextView
+                        android:id="@+id/track_fitness_screen_lbl"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
@@ -336,6 +344,7 @@
                         app:cardCornerRadius="6dp"></androidx.cardview.widget.CardView>
 
                     <TextView
+                        android:id="@+id/track_fitness_sleep_lbl"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
@@ -349,5 +358,15 @@
         </LinearLayout>
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/tracker_seemore_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        android:text="See More Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
 
 </LinearLayout>

@@ -18,6 +18,7 @@ import com.spacECE.spaceceedu.ConsultUS.ConsultUs_SplashScreen;
 import com.spacECE.spaceceedu.LearnOnApp.LearnOn_List_SplashScreen;
 import com.spacECE.spaceceedu.LibForSmall.library_splash_screen;
 import com.spacECE.spaceceedu.VideoLibrary.VideoLibrary_Activity_SplashScreen;
+import com.spacECE.spaceceedu.growth_tracker.track_food_fitness_vaccination;
 import com.spacECE.spaceceedu.space_active.ActivitiesListActivity;
 import com.synnapps.carouselview.CarouselView;
 import com.synnapps.carouselview.ImageListener;
@@ -53,6 +54,8 @@ public class FragmentMain extends Fragment {
                 imageView.setImageResource(mImages [position]);
             }
         });
+
+        startActivity(new Intent(getContext(), track_food_fitness_vaccination.class));
 
         //Navigating to VideoLibrary/Consultation activity via OnClick
         cv_consultation=v.findViewById(R.id.CardView_Consultation);
