@@ -62,7 +62,6 @@
             android:name=".LearnOnApp.LearnOn_Main"
             android:exported="true" />
         <activity android:name=".LibForSmall.libraryDetailed" />
-        <activity android:name=".LibForSmall.libraryDetailed" />
         <activity
             android:name=".LearnOnApp.LearnOn_List_SplashScreen"
             android:exported="true" />
